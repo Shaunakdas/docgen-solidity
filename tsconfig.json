@@ -1,0 +1,14 @@
+{
+  "extends": "code-style/tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "noUncheckedIndexedAccess": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "ts-node": {
+    "transpileOnly": true
+  }
+}
